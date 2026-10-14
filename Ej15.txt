@@ -1,0 +1,6 @@
+Es importante elegir el tipo de dato adecuado porque cada tipo tiene un
+rango limitado de valores. Si el valor supera ese rango, se produce un
+desbordamiento y el resultado es incorrecto, sin que Java avise con ningún
+error (como vimos en Ej13 y Ej14). Además, elegir bien el tipo evita
+desperdiciar memoria: no hace falta un long para guardar una edad. Hay que
+equilibrar rango suficiente y uso eficiente de memoria.

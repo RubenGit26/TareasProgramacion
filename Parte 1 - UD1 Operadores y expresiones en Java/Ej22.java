@@ -7,7 +7,13 @@ public class Ej22 {
         System.out.println("Introduzca un número: ");
         int num = sc.nextInt();
 
-        System.out.println("Número: " + num + "\nNúmero prefijo(++): " + (++num) + "\nNúmero prefijo(--): " + (--num) + "\nNúmero postfijo(++): " + (num++) + "\nNúmero postfijo(--): " + (num--));
+        int a = num, b = num, c = num, d = num;
+
+        System.out.println("Número original: " + num);
+        System.out.println("Prefijo (++):  devuelve " + (++a) + " | queda en " + a);
+        System.out.println("Prefijo (--):  devuelve " + (--b) + " | queda en " + b);
+        System.out.println("Postfijo (++): devuelve " + (c++) + " | queda en " + c);
+        System.out.println("Postfijo (--): devuelve " + (d--) + " | queda en " + d);
 
         sc.close();
     }
